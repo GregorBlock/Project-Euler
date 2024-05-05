@@ -52,7 +52,7 @@ internal class P22Test {
     }
 
     @Test
-    fun `Name score of COLIN 938 * 53 = 49714`() {
+    fun `Name score of COLIN 938 x 53 = 49714`() {
         val expected = 49714
         Assertions.assertEquals(expected, nameScore(position = 938, name = "COLIN"))
     }
